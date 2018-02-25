@@ -1,0 +1,10 @@
+\form#0:$k$
+\form#1:$x_{k-1},x_{k-2},\dots,x_0 $
+\form#2:$x_{k-1}$
+\form#3:$x_0$
+\form#4:\[ X = \sum_{i=0}^{k-2}{2^i \cdot x_i} - \begin{cases} 0 & x_{k-1} = 0\\ 2^{k-1} & x_{k-1} = 1 \\ \end{cases} \]
+\form#5:$[-2^{k-1};2^{k-1}-1]$
+\form#6:\[ X = (1 - 2 \cdot x_{k-1}) \cdot \sum_{i=0}^{k-2}{2^i \cdot x_i} \]
+\form#7:$[-2^{k-1}+1;2^{k-1}-1]$
+\form#8:\[ X = (1 - 2 \cdot x_{k-1}) \cdot \sum_{i=0}^{k-2}{2^i \cdot y_i} \]
+\form#9:\[ y_i = \begin{cases} x_i & x_{k-1} = 0\\ 1-x_i & x_{k-1} = 1 \\ \end{cases} \]

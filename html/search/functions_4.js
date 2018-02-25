@@ -1,0 +1,4 @@
+var searchData=
+[
+  ['serialize',['serialize',['../namespaceuSer.html#a45c321581ed611cdce05225d0d7f4573',1,'uSer::serialize(RawIter &amp;&amp;raw, const Obj &amp;obj, SizeT size, std::size_t *sizeUsed=nullptr)'],['../namespaceuSer.html#a787db54fd1664dc69e309abe36460ab0',1,'uSer::serialize(SWord(&amp;raw)[N], const Obj &amp;obj, std::size_t *sizeUsed=nullptr)'],['../namespaceuSer.html#ad6b6e78965da98c3b175c0a17b66e908',1,'uSer::serialize(std::array&lt; SWord, N &gt; &amp;raw, const Obj &amp;obj, std::size_t *sizeUsed=nullptr)'],['../namespaceuSer.html#a58d5cd6fc566a61ef55d00b791e9bba0',1,'uSer::serialize(RawIter &amp;&amp;raw, const Obj &amp;obj, std::size_t size, std::size_t *sizeUsed=nullptr)'],['../namespaceuSer.html#ab931ff766925c6687b1482148cbb4300',1,'uSer::serialize(RawContainer &amp;&amp;raw, const Obj &amp;obj, std::size_t *sizeUsed=nullptr)']]]
+];
