@@ -16,6 +16,8 @@ var searchData=
   ['user_5fext_5fmem_5fannot',['USER_EXT_MEM_ANNOT',['../uSer_8hh.html#a95a301f4f3647a9da1c54c64d88dab14',1,'uSer.hh']]],
   ['user_5fmem',['USER_MEM',['../uSer_8hh.html#aa698c0d67c4648448cff3db1230633fb',1,'uSer.hh']]],
   ['user_5fmem_5fannot',['USER_MEM_ANNOT',['../uSer_8hh.html#aa9fd5f0392d3b7830ad9443d4b168885',1,'uSer.hh']]],
+  ['user_5fno_5fprint',['USER_NO_PRINT',['../optional_8cpp.html#a084bef85c79e8fbaa5faf7553c312cf6',1,'optional.cpp']]],
+  ['user_5fno_5fsmartptr',['USER_NO_SMARTPTR',['../optional_8cpp.html#ad7d692d9b17881dab6d89593d413f8ad',1,'optional.cpp']]],
   ['user_5fstruct',['USER_STRUCT',['../uSer_8hh.html#a3c3db54164091093c62af605d97c113e',1,'uSer.hh']]],
   ['userextannot',['uSerExtAnnot',['../namespaceuSerExtAnnot.html',1,'']]]
 ];

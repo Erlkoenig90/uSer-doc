@@ -120,6 +120,12 @@ Macros</h2></td></tr>
 <tr class="memitem:ac62717affc27361b1479a8beeb13abfc"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="optional_8cpp.html#ac62717affc27361b1479a8beeb13abfc">USER_EXCEPTIONS</a></td></tr>
 <tr class="memdesc:ac62717affc27361b1479a8beeb13abfc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enables exception support for µSer.  <a href="#ac62717affc27361b1479a8beeb13abfc">More...</a><br /></td></tr>
 <tr class="separator:ac62717affc27361b1479a8beeb13abfc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad7d692d9b17881dab6d89593d413f8ad"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="optional_8cpp.html#ad7d692d9b17881dab6d89593d413f8ad">USER_NO_SMARTPTR</a></td></tr>
+<tr class="memdesc:ad7d692d9b17881dab6d89593d413f8ad"><td class="mdescLeft">&#160;</td><td class="mdescRight">Disables smart pointer support for µSer.  <a href="#ad7d692d9b17881dab6d89593d413f8ad">More...</a><br /></td></tr>
+<tr class="separator:ad7d692d9b17881dab6d89593d413f8ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a084bef85c79e8fbaa5faf7553c312cf6"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="optional_8cpp.html#a084bef85c79e8fbaa5faf7553c312cf6">USER_NO_PRINT</a></td></tr>
+<tr class="memdesc:a084bef85c79e8fbaa5faf7553c312cf6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Disables printing support for µSer.  <a href="#a084bef85c79e8fbaa5faf7553c312cf6">More...</a><br /></td></tr>
+<tr class="separator:a084bef85c79e8fbaa5faf7553c312cf6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>The macros in this file are not defined by µSer, but can optionally be defined by application code <em>before</em> including <a class="el" href="uSer_8hh.html">uSer.hh</a> to configure it. </p>
@@ -146,6 +152,36 @@ Except as contained in this notice, the names of the authors or their institutio
 
 <p>Enables exception support for µSer. </p>
 <p>This macro can optionally be defined by applications <em>before</em> including the <a class="el" href="uSer_8hh.html">uSer.hh file</a> to enable <a class="el" href="namespaceuSer.html" title="µSer main API. ">uSer</a>'s exception support. In that case, the <a class="el" href="namespaceuSer.html#a45c321581ed611cdce05225d0d7f4573">uSer::serialize</a> and <a class="el" href="namespaceuSer.html#a5d05bb728a8323898ee5b4cef5c1a3f8">uSer::deserialize</a> functions always return void, and throw an instance of <a class="el" href="classuSer_1_1Exception.html">uSer::Exception</a> in case of error. </p>
+
+</div>
+</div>
+<a class="anchor" id="a084bef85c79e8fbaa5faf7553c312cf6"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define USER_NO_PRINT</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Disables printing support for µSer. </p>
+<p>This macro can optionally be defined by applications <em>before</em> including the <a class="el" href="uSer_8hh.html">uSer.hh file</a> to disable <a class="el" href="namespaceuSer.html" title="µSer main API. ">uSer</a>'s support for printing data structures to std::ostream. When defined, the standard header &lt;ostream&gt; won't be included which might incur runtime overhead, and the function <a class="el" href="namespaceuSer.html#aad93ce8faec41b3dc4e3cf76501015b1">print</a> won't be available. </p>
+
+</div>
+</div>
+<a class="anchor" id="ad7d692d9b17881dab6d89593d413f8ad"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define USER_NO_SMARTPTR</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Disables smart pointer support for µSer. </p>
+<p>This macro can optionally be defined by applications <em>before</em> including the <a class="el" href="uSer_8hh.html">uSer.hh file</a> to disable <a class="el" href="namespaceuSer.html" title="µSer main API. ">uSer</a>'s support for standard library smart pointers. When defined, the standard header &lt;memory&gt; won't be included which might incur runtime overhead. </p>
 
 </div>
 </div>
