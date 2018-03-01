@@ -109,7 +109,6 @@ $(document).ready(function(){initNavTree('namespaceuSer.html','');});
 <a href="#namespaces">Namespaces</a> &#124;
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#typedef-members">Typedefs</a> &#124;
-<a href="#enum-members">Enumerations</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">uSer Namespace Reference</div>  </div>
@@ -170,15 +169,8 @@ template&lt;typename RawIter , typename Obj , typename... Attr&gt; </td></tr>
 <tr class="memdesc:af48a7b87d63958c678e25e80bb777cdd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Indicates the maximum number of dynamic serialization words in raw data; may be an alias to <a class="el" href="structuSer_1_1Unlimited.html">Unlimited</a>, <a class="el" href="structuSer_1_1NoDyn.html">NoDyn</a>, or <a class="el" href="structuSer_1_1MaxSize.html">MaxSize</a>. <br /></td></tr>
 <tr class="separator:af48a7b87d63958c678e25e80bb777cdd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
-Enumerations</h2></td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:aeea7ed2c6f4850bda4c23b4fead96fee"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aeea7ed2c6f4850bda4c23b4fead96fee"></a>
-const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceuSer.html#aeea7ed2c6f4850bda4c23b4fead96fee">getErrorMessage</a> (<a class="el" href="namespaceuSer.html#a72cef23a5665ef71d6bf6f09abbbd12a">ErrorCode</a> ec)</td></tr>
-<tr class="memdesc:aeea7ed2c6f4850bda4c23b4fead96fee"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a string describing the error indicated by the given error code. <br /></td></tr>
-<tr class="separator:aeea7ed2c6f4850bda4c23b4fead96fee"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a45c321581ed611cdce05225d0d7f4573"><td class="memTemplParams" colspan="2">template&lt;typename... Attr, typename RawIter , typename Obj , typename SizeT , std::enable_if_t&lt; std::is_convertible_v&lt; SizeT, Helper::SizeDefTag &gt;, int &gt;  = 42&gt; </td></tr>
 <tr class="memitem:a45c321581ed611cdce05225d0d7f4573"><td class="memTemplItemLeft" align="right" valign="top">decltype(auto)&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceuSer.html#a45c321581ed611cdce05225d0d7f4573">serialize</a> (RawIter &amp;&amp;raw, const Obj &amp;obj, SizeT size, std::size_t *sizeUsed=nullptr)</td></tr>
 <tr class="separator:a45c321581ed611cdce05225d0d7f4573"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -224,44 +216,7 @@ const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hr
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>µSer main API. </p>
-</div><h2 class="groupheader">Enumeration Type Documentation</h2>
-<a class="anchor" id="a72cef23a5665ef71d6bf6f09abbbd12a"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum <a class="el" href="namespaceuSer.html#a72cef23a5665ef71d6bf6f09abbbd12a">uSer::ErrorCode</a> : std::uint_least8_t</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">strong</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Error code for serialization functions. </p>
-<table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a class="anchor" id="a72cef23a5665ef71d6bf6f09abbbd12aae0aa021e21dddbd6d8cecec71e9cf564"></a>OK&#160;</td><td class="fielddoc">
-<p>No error was indicated (success) </p>
-</td></tr>
-<tr><td class="fieldname"><a class="anchor" id="a72cef23a5665ef71d6bf6f09abbbd12aaba245aa97c5b8cc258d1c15302e6ce9e"></a>EDYNRANGE&#160;</td><td class="fielddoc">
-<p>The size of a dynamic data structure exceeds the allowed maximum. </p>
-</td></tr>
-<tr><td class="fieldname"><a class="anchor" id="a72cef23a5665ef71d6bf6f09abbbd12aa2d992459b9e46bd87ae164884a63a9ef"></a>EBUFSIZE&#160;</td><td class="fielddoc">
-<p>Raw buffer overflow. </p>
-</td></tr>
-<tr><td class="fieldname"><a class="anchor" id="a72cef23a5665ef71d6bf6f09abbbd12aafb7e587b73178e884d9929d3f6fef579"></a>EHOOK&#160;</td><td class="fielddoc">
-<p>This error is never raised by <a class="el" href="namespaceuSer.html" title="µSer main API. ">uSer</a>, but can be used by hooks. </p>
-</td></tr>
-</table>
-
-</div>
-</div>
-<h2 class="groupheader">Function Documentation</h2>
+</div><h2 class="groupheader">Function Documentation</h2>
 <a class="anchor" id="a0bcb554ad11e561747e963849af6a376"></a>
 <div class="memitem">
 <div class="memproto">
@@ -337,7 +292,7 @@ template&lt;typename... Attr, typename RawIter , typename Obj , typename SizeT ,
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>If an error is possible for the requested data types AND exceptions are disabled, an <a class="el" href="namespaceuSer.html#a72cef23a5665ef71d6bf6f09abbbd12a">ErrorCode</a> is returned; else the return type is void. </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>If an error is possible for the requested data types AND exceptions are disabled, an <a class="el" href="uSer_8hh.html#a8c7fd658da9e8986d7c7895b1e41c2ab">uSer_ErrorCode</a> is returned; else the return type is void. </dd></dl>
 
 </div>
 </div>
@@ -380,7 +335,7 @@ template&lt;typename... Attr, typename SWord , typename Obj , std::size_t N&gt; 
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>If an error is possible for the requested data types AND exceptions are disabled, an <a class="el" href="namespaceuSer.html#a72cef23a5665ef71d6bf6f09abbbd12a">ErrorCode</a> is returned; else the return type is void. </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>If an error is possible for the requested data types AND exceptions are disabled, an <a class="el" href="uSer_8hh.html#a8c7fd658da9e8986d7c7895b1e41c2ab">uSer_ErrorCode</a> is returned; else the return type is void. </dd></dl>
 
 </div>
 </div>
@@ -423,7 +378,7 @@ template&lt;typename... Attr, typename SWord , typename Obj , std::size_t N&gt; 
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>If an error is possible for the requested data types AND exceptions are disabled, an <a class="el" href="namespaceuSer.html#a72cef23a5665ef71d6bf6f09abbbd12a">ErrorCode</a> is returned; else the return type is void. </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>If an error is possible for the requested data types AND exceptions are disabled, an <a class="el" href="uSer_8hh.html#a8c7fd658da9e8986d7c7895b1e41c2ab">uSer_ErrorCode</a> is returned; else the return type is void. </dd></dl>
 
 </div>
 </div>
@@ -467,7 +422,7 @@ template&lt;typename... Attr, typename SWord , typename Obj , std::size_t N&gt; 
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>If an error is possible for the requested data types AND exceptions are disabled, an <a class="el" href="namespaceuSer.html#a72cef23a5665ef71d6bf6f09abbbd12a">ErrorCode</a> is returned; else the return type is void. </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>If an error is possible for the requested data types AND exceptions are disabled, an <a class="el" href="uSer_8hh.html#a8c7fd658da9e8986d7c7895b1e41c2ab">uSer_ErrorCode</a> is returned; else the return type is void. </dd></dl>
 
 </div>
 </div>
@@ -511,7 +466,7 @@ template&lt;typename... Attr, typename SWord , typename Obj , std::size_t N&gt; 
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>If an error is possible for the requested data types AND exceptions are disabled, an <a class="el" href="namespaceuSer.html#a72cef23a5665ef71d6bf6f09abbbd12a">ErrorCode</a> is returned; else the return type is void. </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>If an error is possible for the requested data types AND exceptions are disabled, an <a class="el" href="uSer_8hh.html#a8c7fd658da9e8986d7c7895b1e41c2ab">uSer_ErrorCode</a> is returned; else the return type is void. </dd></dl>
 
 </div>
 </div>
@@ -561,7 +516,7 @@ template&lt;typename... Attr, typename RawIter , typename Obj &gt; </div>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>If exceptions are disabled, an <a class="el" href="namespaceuSer.html#a72cef23a5665ef71d6bf6f09abbbd12a">ErrorCode</a> is returned; else the return type is void. </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>If exceptions are disabled, an <a class="el" href="uSer_8hh.html#a8c7fd658da9e8986d7c7895b1e41c2ab">uSer_ErrorCode</a> is returned; else the return type is void. </dd></dl>
 
 </div>
 </div>
@@ -604,7 +559,7 @@ template&lt;typename... Attr, typename RawContainer , typename Obj , decltype(st
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>If exceptions are disabled, an <a class="el" href="namespaceuSer.html#a72cef23a5665ef71d6bf6f09abbbd12a">ErrorCode</a> is returned; else the return type is void. </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>If exceptions are disabled, an <a class="el" href="uSer_8hh.html#a8c7fd658da9e8986d7c7895b1e41c2ab">uSer_ErrorCode</a> is returned; else the return type is void. </dd></dl>
 
 </div>
 </div>
@@ -690,7 +645,7 @@ template&lt;typename... Attr, typename RawIter , typename Obj , typename SizeT ,
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>If an error is possible for the requested data types AND exceptions are disabled, an <a class="el" href="namespaceuSer.html#a72cef23a5665ef71d6bf6f09abbbd12a">ErrorCode</a> is returned; else the return type is void. </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>If an error is possible for the requested data types AND exceptions are disabled, an <a class="el" href="uSer_8hh.html#a8c7fd658da9e8986d7c7895b1e41c2ab">uSer_ErrorCode</a> is returned; else the return type is void. </dd></dl>
 
 </div>
 </div>
@@ -733,7 +688,7 @@ template&lt;typename... Attr, typename SWord , typename Obj , std::size_t N&gt; 
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>If an error is possible for the requested data types AND exceptions are disabled, an <a class="el" href="namespaceuSer.html#a72cef23a5665ef71d6bf6f09abbbd12a">ErrorCode</a> is returned; else the return type is void. </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>If an error is possible for the requested data types AND exceptions are disabled, an <a class="el" href="uSer_8hh.html#a8c7fd658da9e8986d7c7895b1e41c2ab">uSer_ErrorCode</a> is returned; else the return type is void. </dd></dl>
 
 </div>
 </div>
@@ -776,7 +731,7 @@ template&lt;typename... Attr, typename SWord , typename Obj , std::size_t N&gt; 
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>If an error is possible for the requested data types AND exceptions are disabled, an <a class="el" href="namespaceuSer.html#a72cef23a5665ef71d6bf6f09abbbd12a">ErrorCode</a> is returned; else the return type is void. </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>If an error is possible for the requested data types AND exceptions are disabled, an <a class="el" href="uSer_8hh.html#a8c7fd658da9e8986d7c7895b1e41c2ab">uSer_ErrorCode</a> is returned; else the return type is void. </dd></dl>
 
 </div>
 </div>
@@ -826,7 +781,7 @@ template&lt;typename... Attr, typename RawIter , typename Obj &gt; </div>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>If exceptions are disabled, an <a class="el" href="namespaceuSer.html#a72cef23a5665ef71d6bf6f09abbbd12a">ErrorCode</a> is returned; else the return type is void. </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>If exceptions are disabled, an <a class="el" href="uSer_8hh.html#a8c7fd658da9e8986d7c7895b1e41c2ab">uSer_ErrorCode</a> is returned; else the return type is void. </dd></dl>
 
 </div>
 </div>
@@ -869,7 +824,7 @@ template&lt;typename... Attr, typename RawContainer , typename Obj , decltype(st
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>If exceptions are disabled, an <a class="el" href="namespaceuSer.html#a72cef23a5665ef71d6bf6f09abbbd12a">ErrorCode</a> is returned; else the return type is void. </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>If exceptions are disabled, an <a class="el" href="uSer_8hh.html#a8c7fd658da9e8986d7c7895b1e41c2ab">uSer_ErrorCode</a> is returned; else the return type is void. </dd></dl>
 
 </div>
 </div>

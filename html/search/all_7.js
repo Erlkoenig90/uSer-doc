@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['infsize',['InfSize',['../structuSer_1_1InfSize.html',1,'uSer']]]
+  ['le',['LE',['../structuSer_1_1ByteOrder_1_1LE.html',1,'uSer::ByteOrder']]]
 ];

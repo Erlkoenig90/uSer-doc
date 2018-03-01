@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['geterrormessage',['getErrorMessage',['../namespaceuSer.html#aeea7ed2c6f4850bda4c23b4fead96fee',1,'uSer']]]
+  ['infsize',['InfSize',['../structuSer_1_1InfSize.html',1,'uSer']]]
 ];

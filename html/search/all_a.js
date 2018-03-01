@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['native',['Native',['../group__Attr.html#ga3404ccc664fbe1f4a92d549045575d0d',1,'uSer::ByteOrder']]],
-  ['nodyn',['NoDyn',['../structuSer_1_1NoDyn.html',1,'uSer']]],
-  ['none',['None',['../structuSer_1_1Padding_1_1None.html',1,'uSer::Padding']]]
+  ['onescomplement',['OnesComplement',['../structuSer_1_1SignFormat_1_1OnesComplement.html',1,'uSer::SignFormat']]],
+  ['optional',['Optional',['../structuSer_1_1Dyn_1_1Optional.html',1,'uSer::Dyn']]],
+  ['optional_2ecpp',['optional.cpp',['../optional_8cpp.html',1,'']]]
 ];

@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['errorcode',['errorCode',['../classuSer_1_1Exception.html#a9d4d65e7e00572d39648416ab0b8bea2',1,'uSer::Exception']]]
+  ['errorcode',['errorCode',['../classuSer_1_1Exception.html#af88492341aa9af9d8d28591bf19a6045',1,'uSer::Exception']]]
 ];

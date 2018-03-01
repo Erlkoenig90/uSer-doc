@@ -1,23 +1,5 @@
 var searchData=
 [
-  ['byteorder',['ByteOrder',['../namespaceuSer_1_1ByteOrder.html',1,'uSer']]],
-  ['hook',['Hook',['../namespaceuSer_1_1Hook.html',1,'uSer']]],
-  ['user',['uSer',['../md_uSer.html',1,'']]],
-  ['signformat',['SignFormat',['../namespaceuSer_1_1SignFormat.html',1,'uSer']]],
-  ['unlimited',['Unlimited',['../structuSer_1_1Unlimited.html',1,'uSer']]],
-  ['user',['uSer',['../namespaceuSer.html',1,'']]],
-  ['user_2ehh',['uSer.hh',['../uSer_8hh.html',1,'']]],
-  ['user_5fdef_5fmem',['USER_DEF_MEM',['../uSer_8hh.html#a4b9dbf8cddfb3649be7fe5dabe720738',1,'uSer.hh']]],
-  ['user_5fenum_5fmem',['USER_ENUM_MEM',['../uSer_8hh.html#a0c959995dc9db6e1863ccd03e7715a3f',1,'uSer.hh']]],
-  ['user_5fexceptions',['USER_EXCEPTIONS',['../optional_8cpp.html#ac62717affc27361b1479a8beeb13abfc',1,'optional.cpp']]],
-  ['user_5fext_5fannot',['USER_EXT_ANNOT',['../uSer_8hh.html#a1038046f66eb6f26c458ed93f44e8883',1,'uSer.hh']]],
-  ['user_5fext_5fdef_5fmem',['USER_EXT_DEF_MEM',['../uSer_8hh.html#a74c5c1444f1efe3192ece5bd7fb72556',1,'uSer.hh']]],
-  ['user_5fext_5fenum_5fmem',['USER_EXT_ENUM_MEM',['../uSer_8hh.html#a568cacede8a3c880e8e9356243b76dd8',1,'uSer.hh']]],
-  ['user_5fext_5fmem_5fannot',['USER_EXT_MEM_ANNOT',['../uSer_8hh.html#a95a301f4f3647a9da1c54c64d88dab14',1,'uSer.hh']]],
-  ['user_5fmem',['USER_MEM',['../uSer_8hh.html#aa698c0d67c4648448cff3db1230633fb',1,'uSer.hh']]],
-  ['user_5fmem_5fannot',['USER_MEM_ANNOT',['../uSer_8hh.html#aa9fd5f0392d3b7830ad9443d4b168885',1,'uSer.hh']]],
-  ['user_5fno_5fprint',['USER_NO_PRINT',['../optional_8cpp.html#a084bef85c79e8fbaa5faf7553c312cf6',1,'optional.cpp']]],
-  ['user_5fno_5fsmartptr',['USER_NO_SMARTPTR',['../optional_8cpp.html#ad7d692d9b17881dab6d89593d413f8ad',1,'optional.cpp']]],
-  ['user_5fstruct',['USER_STRUCT',['../uSer_8hh.html#a3c3db54164091093c62af605d97c113e',1,'uSer.hh']]],
-  ['userextannot',['uSerExtAnnot',['../namespaceuSerExtAnnot.html',1,'']]]
+  ['width',['Width',['../structuSer_1_1Width.html',1,'uSer']]],
+  ['wsize',['wSize',['../structuSer_1_1RawInfo.html#a377306a952f21bdd267b7c78427c6b80',1,'uSer::RawInfo']]]
 ];

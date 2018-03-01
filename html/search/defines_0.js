@@ -7,6 +7,7 @@ var searchData=
   ['user_5fext_5fdef_5fmem',['USER_EXT_DEF_MEM',['../uSer_8hh.html#a74c5c1444f1efe3192ece5bd7fb72556',1,'uSer.hh']]],
   ['user_5fext_5fenum_5fmem',['USER_EXT_ENUM_MEM',['../uSer_8hh.html#a568cacede8a3c880e8e9356243b76dd8',1,'uSer.hh']]],
   ['user_5fext_5fmem_5fannot',['USER_EXT_MEM_ANNOT',['../uSer_8hh.html#a95a301f4f3647a9da1c54c64d88dab14',1,'uSer.hh']]],
+  ['user_5fextern_5fc',['USER_EXTERN_C',['../uSer_8hh.html#a81310d2a19e5bbc38a4db76bbcd41b81',1,'uSer.hh']]],
   ['user_5fmem',['USER_MEM',['../uSer_8hh.html#aa698c0d67c4648448cff3db1230633fb',1,'uSer.hh']]],
   ['user_5fmem_5fannot',['USER_MEM_ANNOT',['../uSer_8hh.html#aa9fd5f0392d3b7830ad9443d4b168885',1,'uSer.hh']]],
   ['user_5fno_5fprint',['USER_NO_PRINT',['../optional_8cpp.html#a084bef85c79e8fbaa5faf7553c312cf6',1,'optional.cpp']]],

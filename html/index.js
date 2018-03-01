@@ -39,7 +39,9 @@ var index =
         [ "Optional struct members via Dyn::Optional", "tutorial.html#ConDyn3", null ]
       ] ],
       [ "Hooks", "tutorial.html#ConHooks", null ],
-      [ "Calculating buffer sizes", "tutorial.html#ConBufSize", null ]
+      [ "Calculating buffer sizes", "tutorial.html#ConBufSize", null ],
+      [ "Using µSer on resource-constrained systems", "tutorial.html#Minimize", null ],
+      [ "C-Compatibility", "tutorial.html#CCompat", null ]
     ] ],
     [ "Examples", "Examples.html", [
       [ "Serializing an integer into an array", "Examples.html#Ex01", null ],
@@ -70,6 +72,11 @@ var index =
       [ "Deserializing a vector of integers from an array.", "Examples.html#Ex26", null ],
       [ "Defining dynamic data structures with Dyn::Size", "Examples.html#Ex27", null ],
       [ "Defining optional data structures with Dyn::Optional", "Examples.html#Ex28", null ],
-      [ "Defining hook funktions to be called before/after (de)serialization", "Examples.html#Ex29", null ]
+      [ "Defining hook funktions to be called before/after (de)serialization", "Examples.html#Ex29", null ],
+      [ "Using µSer in C projects", "Examples.html#ExC", [
+        [ "Common header file for data structures", "Examples.html#ExC_Hdr", null ],
+        [ "Implementation of the C++ serialization functions", "Examples.html#ExC_Ser", null ],
+        [ "Calling serialization functions from C code", "Examples.html#ExC_main", null ]
+      ] ]
     ] ]
 ];

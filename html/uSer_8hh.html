@@ -129,7 +129,7 @@ $(document).ready(function(){initNavTree('uSer_8hh.html','');});
 <code>#include &lt;cstdint&gt;</code><br />
 <code>#include &lt;limits&gt;</code><br />
 <code>#include &lt;memory&gt;</code><br />
-<code>#include &lt;iostream&gt;</code><br />
+<code>#include &lt;ostream&gt;</code><br />
 <code>#include &lt;iomanip&gt;</code><br />
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
@@ -223,42 +223,37 @@ Namespaces</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
 Macros</h2></td></tr>
-<tr class="memitem:a3c3db54164091093c62af605d97c113e"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a3c3db54164091093c62af605d97c113e"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="uSer_8hh.html#a3c3db54164091093c62af605d97c113e">USER_STRUCT</a>(name, ...)&#160;&#160;&#160;using uSer_Self = name; using uSer_Attributes = ::uSer::DefAttr&lt;__VA_ARGS__&gt;;</td></tr>
-<tr class="memdesc:a3c3db54164091093c62af605d97c113e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Begin intrusive struct definition. <br /></td></tr>
+<tr class="memitem:a3c3db54164091093c62af605d97c113e"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="uSer_8hh.html#a3c3db54164091093c62af605d97c113e">USER_STRUCT</a>(name, ...)&#160;&#160;&#160;using uSer_Self = name; using uSer_Attributes = ::uSer::DefAttr&lt;__VA_ARGS__&gt;;</td></tr>
+<tr class="memdesc:a3c3db54164091093c62af605d97c113e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Begin intrusive struct definition.  <a href="#a3c3db54164091093c62af605d97c113e">More...</a><br /></td></tr>
 <tr class="separator:a3c3db54164091093c62af605d97c113e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa9fd5f0392d3b7830ad9443d4b168885"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa9fd5f0392d3b7830ad9443d4b168885"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="uSer_8hh.html#aa9fd5f0392d3b7830ad9443d4b168885">USER_MEM_ANNOT</a>(name, ...)&#160;&#160;&#160;static ::uSer::DefAttr&lt;__VA_ARGS__&gt; uSer_MemAttributes (::uSer::Helper::VTag&lt;&amp;uSer_Self:: name &gt;);</td></tr>
-<tr class="memdesc:aa9fd5f0392d3b7830ad9443d4b168885"><td class="mdescLeft">&#160;</td><td class="mdescRight">Define attributes for single struct member. <br /></td></tr>
+<tr class="memitem:aa9fd5f0392d3b7830ad9443d4b168885"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="uSer_8hh.html#aa9fd5f0392d3b7830ad9443d4b168885">USER_MEM_ANNOT</a>(name, ...)&#160;&#160;&#160;static ::uSer::DefAttr&lt;__VA_ARGS__&gt; uSer_MemAttributes (::uSer::Helper::VTag&lt;&amp;uSer_Self:: name &gt;);</td></tr>
+<tr class="memdesc:aa9fd5f0392d3b7830ad9443d4b168885"><td class="mdescLeft">&#160;</td><td class="mdescRight">Define attributes for single struct member.  <a href="#aa9fd5f0392d3b7830ad9443d4b168885">More...</a><br /></td></tr>
 <tr class="separator:aa9fd5f0392d3b7830ad9443d4b168885"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0c959995dc9db6e1863ccd03e7715a3f"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a0c959995dc9db6e1863ccd03e7715a3f"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="uSer_8hh.html#a0c959995dc9db6e1863ccd03e7715a3f">USER_ENUM_MEM</a>(...)&#160;&#160;&#160;using uSer_Members = ::<a class="el" href="structuSer_1_1StructMembers.html">uSer::StructMembers</a>&lt;USER_PPM_MAP_LIST(USER_ENUM_MEMPTR,uSer_Self,__VA_ARGS__)&gt;;</td></tr>
-<tr class="memdesc:a0c959995dc9db6e1863ccd03e7715a3f"><td class="mdescLeft">&#160;</td><td class="mdescRight">List previously defined struct members. <br /></td></tr>
+<tr class="memitem:a0c959995dc9db6e1863ccd03e7715a3f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="uSer_8hh.html#a0c959995dc9db6e1863ccd03e7715a3f">USER_ENUM_MEM</a>(...)&#160;&#160;&#160;using uSer_Members = ::<a class="el" href="structuSer_1_1StructMembers.html">uSer::StructMembers</a>&lt;USER_PPM_MAP_LIST(USER_ENUM_MEMPTR,uSer_Self,__VA_ARGS__)&gt;;</td></tr>
+<tr class="memdesc:a0c959995dc9db6e1863ccd03e7715a3f"><td class="mdescLeft">&#160;</td><td class="mdescRight">List previously defined struct members.  <a href="#a0c959995dc9db6e1863ccd03e7715a3f">More...</a><br /></td></tr>
 <tr class="separator:a0c959995dc9db6e1863ccd03e7715a3f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa698c0d67c4648448cff3db1230633fb"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa698c0d67c4648448cff3db1230633fb"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="uSer_8hh.html#aa698c0d67c4648448cff3db1230633fb">USER_MEM</a>(type,  name, ...)&#160;&#160;&#160;type name; <a class="el" href="uSer_8hh.html#aa9fd5f0392d3b7830ad9443d4b168885">USER_MEM_ANNOT</a>(name, __VA_ARGS__)</td></tr>
-<tr class="memdesc:aa698c0d67c4648448cff3db1230633fb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Define and annotate struct member. <br /></td></tr>
+<tr class="memitem:aa698c0d67c4648448cff3db1230633fb"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="uSer_8hh.html#aa698c0d67c4648448cff3db1230633fb">USER_MEM</a>(type,  name, ...)&#160;&#160;&#160;type name; <a class="el" href="uSer_8hh.html#aa9fd5f0392d3b7830ad9443d4b168885">USER_MEM_ANNOT</a>(name, __VA_ARGS__)</td></tr>
+<tr class="memdesc:aa698c0d67c4648448cff3db1230633fb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Define and annotate struct member.  <a href="#aa698c0d67c4648448cff3db1230633fb">More...</a><br /></td></tr>
 <tr class="separator:aa698c0d67c4648448cff3db1230633fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4b9dbf8cddfb3649be7fe5dabe720738"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a4b9dbf8cddfb3649be7fe5dabe720738"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="uSer_8hh.html#a4b9dbf8cddfb3649be7fe5dabe720738">USER_DEF_MEM</a>(...)&#160;&#160;&#160;USER_PPM_MAP(USER_DEF_MEM_I,,__VA_ARGS__) using uSer_Members = ::<a class="el" href="structuSer_1_1StructMembers.html">uSer::StructMembers</a>&lt;USER_PPM_MAP_LIST(USER_DEF_MEM_GET_MPTR,uSer_Self,__VA_ARGS__)&gt;;</td></tr>
-<tr class="memdesc:a4b9dbf8cddfb3649be7fe5dabe720738"><td class="mdescLeft">&#160;</td><td class="mdescRight">Define and annotate multiple struct members. <br /></td></tr>
+<tr class="memitem:a4b9dbf8cddfb3649be7fe5dabe720738"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="uSer_8hh.html#a4b9dbf8cddfb3649be7fe5dabe720738">USER_DEF_MEM</a>(...)&#160;&#160;&#160;USER_PPM_MAP(USER_DEF_MEM_I,,__VA_ARGS__) using uSer_Members = ::<a class="el" href="structuSer_1_1StructMembers.html">uSer::StructMembers</a>&lt;USER_PPM_MAP_LIST(USER_DEF_MEM_GET_MPTR,uSer_Self,__VA_ARGS__)&gt;;</td></tr>
+<tr class="memdesc:a4b9dbf8cddfb3649be7fe5dabe720738"><td class="mdescLeft">&#160;</td><td class="mdescRight">Define and annotate multiple struct members with <a class="el" href="group__Attr.html">attributes</a> in one step. See <a class="el" href="tutorial.html#ConStruct5">Defining and annotating all struct members in one step</a>.  <a href="#a4b9dbf8cddfb3649be7fe5dabe720738">More...</a><br /></td></tr>
 <tr class="separator:a4b9dbf8cddfb3649be7fe5dabe720738"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1038046f66eb6f26c458ed93f44e8883"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a1038046f66eb6f26c458ed93f44e8883"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="uSer_8hh.html#a1038046f66eb6f26c458ed93f44e8883">USER_EXT_ANNOT</a>(name, ...)&#160;&#160;&#160;namespace uSerExtAnnot { template &lt;&gt; struct ExtAttr&lt;name&gt; { using Type = ::uSer::DefAttr&lt;__VA_ARGS__&gt;; }; }</td></tr>
-<tr class="memdesc:a1038046f66eb6f26c458ed93f44e8883"><td class="mdescLeft">&#160;</td><td class="mdescRight">Annotate external data type. <br /></td></tr>
+<tr class="memitem:a1038046f66eb6f26c458ed93f44e8883"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="uSer_8hh.html#a1038046f66eb6f26c458ed93f44e8883">USER_EXT_ANNOT</a>(name, ...)&#160;&#160;&#160;namespace uSerExtAnnot { template &lt;&gt; struct ExtAttr&lt;name&gt; { using Type = ::uSer::DefAttr&lt;__VA_ARGS__&gt;; }; }</td></tr>
+<tr class="memdesc:a1038046f66eb6f26c458ed93f44e8883"><td class="mdescLeft">&#160;</td><td class="mdescRight">Annotate external data type (struct)  <a href="#a1038046f66eb6f26c458ed93f44e8883">More...</a><br /></td></tr>
 <tr class="separator:a1038046f66eb6f26c458ed93f44e8883"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a95a301f4f3647a9da1c54c64d88dab14"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a95a301f4f3647a9da1c54c64d88dab14"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="uSer_8hh.html#a95a301f4f3647a9da1c54c64d88dab14">USER_EXT_MEM_ANNOT</a>(sname,  name, ...)&#160;&#160;&#160;namespace uSerExtAnnot { template &lt;&gt; struct ExtMemAttr&lt;&amp;sname :: name&gt; { using Type = ::uSer::DefAttr&lt;__VA_ARGS__&gt;; }; }</td></tr>
-<tr class="memdesc:a95a301f4f3647a9da1c54c64d88dab14"><td class="mdescLeft">&#160;</td><td class="mdescRight">Annotate external struct member. <br /></td></tr>
+<tr class="memitem:a95a301f4f3647a9da1c54c64d88dab14"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="uSer_8hh.html#a95a301f4f3647a9da1c54c64d88dab14">USER_EXT_MEM_ANNOT</a>(sname,  name, ...)&#160;&#160;&#160;namespace uSerExtAnnot { template &lt;&gt; struct ExtMemAttr&lt;&amp;sname :: name&gt; { using Type = ::uSer::DefAttr&lt;__VA_ARGS__&gt;; }; }</td></tr>
+<tr class="memdesc:a95a301f4f3647a9da1c54c64d88dab14"><td class="mdescLeft">&#160;</td><td class="mdescRight">Annotate external struct member.  <a href="#a95a301f4f3647a9da1c54c64d88dab14">More...</a><br /></td></tr>
 <tr class="separator:a95a301f4f3647a9da1c54c64d88dab14"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a568cacede8a3c880e8e9356243b76dd8"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a568cacede8a3c880e8e9356243b76dd8"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="uSer_8hh.html#a568cacede8a3c880e8e9356243b76dd8">USER_EXT_ENUM_MEM</a>(sname, ...)&#160;&#160;&#160;namespace uSerExtAnnot { template &lt;&gt; struct ExtStructMembers&lt;sname&gt; { using Type = ::<a class="el" href="structuSer_1_1StructMembers.html">uSer::StructMembers</a>&lt;USER_PPM_MAP_LIST(USER_ENUM_MEMPTR,sname,__VA_ARGS__)&gt;; }; }</td></tr>
-<tr class="memdesc:a568cacede8a3c880e8e9356243b76dd8"><td class="mdescLeft">&#160;</td><td class="mdescRight">List external struct members. <br /></td></tr>
+<tr class="memitem:a568cacede8a3c880e8e9356243b76dd8"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="uSer_8hh.html#a568cacede8a3c880e8e9356243b76dd8">USER_EXT_ENUM_MEM</a>(sname, ...)&#160;&#160;&#160;namespace uSerExtAnnot { template &lt;&gt; struct ExtStructMembers&lt;sname&gt; { using Type = ::<a class="el" href="structuSer_1_1StructMembers.html">uSer::StructMembers</a>&lt;USER_PPM_MAP_LIST(USER_ENUM_MEMPTR,sname,__VA_ARGS__)&gt;; }; }</td></tr>
+<tr class="memdesc:a568cacede8a3c880e8e9356243b76dd8"><td class="mdescLeft">&#160;</td><td class="mdescRight">List external struct members.  <a href="#a568cacede8a3c880e8e9356243b76dd8">More...</a><br /></td></tr>
 <tr class="separator:a568cacede8a3c880e8e9356243b76dd8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a74c5c1444f1efe3192ece5bd7fb72556"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a74c5c1444f1efe3192ece5bd7fb72556"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="uSer_8hh.html#a74c5c1444f1efe3192ece5bd7fb72556">USER_EXT_DEF_MEM</a>(sname, ...)&#160;&#160;&#160;USER_PPM_MAP(USER_EXT_ENUM_MEM_I,sname,__VA_ARGS__) namespace uSerExtAnnot { template &lt;&gt; struct ExtStructMembers &lt;sname&gt;{ using Type = ::<a class="el" href="structuSer_1_1StructMembers.html">uSer::StructMembers</a>&lt;USER_PPM_MAP_LIST(USER_EXT_ENUM_MEM_GET_MPTR,sname,__VA_ARGS__)&gt;; }; }</td></tr>
-<tr class="memdesc:a74c5c1444f1efe3192ece5bd7fb72556"><td class="mdescLeft">&#160;</td><td class="mdescRight">List and annotate external struct members. <br /></td></tr>
+<tr class="memitem:a74c5c1444f1efe3192ece5bd7fb72556"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="uSer_8hh.html#a74c5c1444f1efe3192ece5bd7fb72556">USER_EXT_DEF_MEM</a>(sname, ...)&#160;&#160;&#160;USER_PPM_MAP(USER_EXT_ENUM_MEM_I,sname,__VA_ARGS__) namespace uSerExtAnnot { template &lt;&gt; struct ExtStructMembers &lt;sname&gt;{ using Type = ::<a class="el" href="structuSer_1_1StructMembers.html">uSer::StructMembers</a>&lt;USER_PPM_MAP_LIST(USER_EXT_ENUM_MEM_GET_MPTR,sname,__VA_ARGS__)&gt;; }; }</td></tr>
+<tr class="memdesc:a74c5c1444f1efe3192ece5bd7fb72556"><td class="mdescLeft">&#160;</td><td class="mdescRight">Define and annotate multiple members of any external struct with <a class="el" href="group__Attr.html">attributes</a> in one step. This macro <em>must</em> be called in the global namespace. See <a class="el" href="tutorial.html#ConStruct6">Non-Intrusive struct annotation</a>.  <a href="#a74c5c1444f1efe3192ece5bd7fb72556">More...</a><br /></td></tr>
 <tr class="separator:a74c5c1444f1efe3192ece5bd7fb72556"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a81310d2a19e5bbc38a4db76bbcd41b81"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a81310d2a19e5bbc38a4db76bbcd41b81"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="uSer_8hh.html#a81310d2a19e5bbc38a4db76bbcd41b81">USER_EXTERN_C</a>&#160;&#160;&#160;extern &quot;C&quot;</td></tr>
+<tr class="memdesc:a81310d2a19e5bbc38a4db76bbcd41b81"><td class="mdescLeft">&#160;</td><td class="mdescRight">This macro evaluates to extern "C" from C++, and to nothing in C. It can be used to define C++ functions that can be called from C code. <br /></td></tr>
+<tr class="separator:a81310d2a19e5bbc38a4db76bbcd41b81"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
 Typedefs</h2></td></tr>
@@ -279,10 +274,10 @@ Enumerations</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:aeea7ed2c6f4850bda4c23b4fead96fee"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aeea7ed2c6f4850bda4c23b4fead96fee"></a>
-const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceuSer.html#aeea7ed2c6f4850bda4c23b4fead96fee">uSer::getErrorMessage</a> (ErrorCode ec)</td></tr>
-<tr class="memdesc:aeea7ed2c6f4850bda4c23b4fead96fee"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a string describing the error indicated by the given error code. <br /></td></tr>
-<tr class="separator:aeea7ed2c6f4850bda4c23b4fead96fee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae554bbbb88b9dd386e21dda79645dca1"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ae554bbbb88b9dd386e21dda79645dca1"></a>
+const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="uSer_8hh.html#ae554bbbb88b9dd386e21dda79645dca1">uSer_getErrorMessage</a> (<a class="el" href="uSer_8hh.html#a8c7fd658da9e8986d7c7895b1e41c2ab">uSer_ErrorCode</a> ec)</td></tr>
+<tr class="memdesc:ae554bbbb88b9dd386e21dda79645dca1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a string describing the error indicated by the given error code. <br /></td></tr>
+<tr class="separator:ae554bbbb88b9dd386e21dda79645dca1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a45c321581ed611cdce05225d0d7f4573"><td class="memTemplParams" colspan="2">template&lt;typename... Attr, typename RawIter , typename Obj , typename SizeT , std::enable_if_t&lt; std::is_convertible_v&lt; SizeT, Helper::SizeDefTag &gt;, int &gt;  = 42&gt; </td></tr>
 <tr class="memitem:a45c321581ed611cdce05225d0d7f4573"><td class="memTemplItemLeft" align="right" valign="top">decltype(auto)&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceuSer.html#a45c321581ed611cdce05225d0d7f4573">uSer::serialize</a> (RawIter &amp;&amp;raw, const Obj &amp;obj, SizeT size, std::size_t *sizeUsed=nullptr)</td></tr>
 <tr class="separator:a45c321581ed611cdce05225d0d7f4573"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -338,7 +333,345 @@ The above copyright notice and this permission notice shall be included in all c
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.</dd>
 <dd>
 Except as contained in this notice, the names of the authors or their institutions shall not be used in advertising or otherwise to promote the sale, use or other dealings in this Software without prior written authorization from the authors. </dd></dl>
-</div></div><!-- contents -->
+</div><h2 class="groupheader">Macro Definition Documentation</h2>
+<a class="anchor" id="a4b9dbf8cddfb3649be7fe5dabe720738"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define USER_DEF_MEM</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>...</em></td><td>)</td>
+          <td>&#160;&#160;&#160;USER_PPM_MAP(USER_DEF_MEM_I,,__VA_ARGS__) using uSer_Members = ::<a class="el" href="structuSer_1_1StructMembers.html">uSer::StructMembers</a>&lt;USER_PPM_MAP_LIST(USER_DEF_MEM_GET_MPTR,uSer_Self,__VA_ARGS__)&gt;;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Define and annotate multiple struct members with <a class="el" href="group__Attr.html">attributes</a> in one step. See <a class="el" href="tutorial.html#ConStruct5">Defining and annotating all struct members in one step</a>. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">...</td><td>A sequence of the form (type1,name1,attributes1...),(type2,name2,attributes2...), ... </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a0c959995dc9db6e1863ccd03e7715a3f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define USER_ENUM_MEM</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>...</em></td><td>)</td>
+          <td>&#160;&#160;&#160;using uSer_Members = ::<a class="el" href="structuSer_1_1StructMembers.html">uSer::StructMembers</a>&lt;USER_PPM_MAP_LIST(USER_ENUM_MEMPTR,uSer_Self,__VA_ARGS__)&gt;;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>List previously defined struct members. </p>
+<p>Call this macro after <a class="el" href="uSer_8hh.html#a3c3db54164091093c62af605d97c113e">USER_STRUCT</a> and the definition of member variables to make the members known to µSer. See <a class="el" href="tutorial.html#ConStruct1">Defining and annotating struct members separately</a> </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">...</td><td>The names of member variables. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a1038046f66eb6f26c458ed93f44e8883"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define USER_EXT_ANNOT</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">name, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>...</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td>&#160;&#160;&#160;namespace uSerExtAnnot { template &lt;&gt; struct ExtAttr&lt;name&gt; { using Type = ::uSer::DefAttr&lt;__VA_ARGS__&gt;; }; }</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Annotate external data type (struct) </p>
+<p>Adds annotations to any type. It is recommended to only use this on structs. This macro <em>must</em> be called in the global namespace. See <a class="el" href="tutorial.html#ConStruct6">Non-Intrusive struct annotation</a></p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">name</td><td>The fully-qualified name of the annotated type (including namespaces) </td></tr>
+    <tr><td class="paramname">...</td><td>A list of <a class="el" href="group__Attr.html">attributes</a> </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a74c5c1444f1efe3192ece5bd7fb72556"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define USER_EXT_DEF_MEM</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">sname, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>...</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td>&#160;&#160;&#160;USER_PPM_MAP(USER_EXT_ENUM_MEM_I,sname,__VA_ARGS__) namespace uSerExtAnnot { template &lt;&gt; struct ExtStructMembers &lt;sname&gt;{ using Type = ::<a class="el" href="structuSer_1_1StructMembers.html">uSer::StructMembers</a>&lt;USER_PPM_MAP_LIST(USER_EXT_ENUM_MEM_GET_MPTR,sname,__VA_ARGS__)&gt;; }; }</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Define and annotate multiple members of any external struct with <a class="el" href="group__Attr.html">attributes</a> in one step. This macro <em>must</em> be called in the global namespace. See <a class="el" href="tutorial.html#ConStruct6">Non-Intrusive struct annotation</a>. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">sname</td><td>The fully-qualified name of the surrounding struct (including namespaces) </td></tr>
+    <tr><td class="paramname">...</td><td>A sequence of the form (type1,name1,attributes1...),(type2,name2,attributes2...), ... </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a568cacede8a3c880e8e9356243b76dd8"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define USER_EXT_ENUM_MEM</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">sname, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>...</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td>&#160;&#160;&#160;namespace uSerExtAnnot { template &lt;&gt; struct ExtStructMembers&lt;sname&gt; { using Type = ::<a class="el" href="structuSer_1_1StructMembers.html">uSer::StructMembers</a>&lt;USER_PPM_MAP_LIST(USER_ENUM_MEMPTR,sname,__VA_ARGS__)&gt;; }; }</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>List external struct members. </p>
+<p>Makes the list of members of any struct known to µSer. This macro <em>must</em> be called in the global namespace. See <a class="el" href="tutorial.html#ConStruct6">Non-Intrusive struct annotation</a> </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">sname</td><td>The fully-qualified name of the surrounding struct (including namespaces) </td></tr>
+    <tr><td class="paramname">...</td><td>The names of member variables. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a95a301f4f3647a9da1c54c64d88dab14"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define USER_EXT_MEM_ANNOT</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">sname, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">name, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>...</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td>&#160;&#160;&#160;namespace uSerExtAnnot { template &lt;&gt; struct ExtMemAttr&lt;&amp;sname :: name&gt; { using Type = ::uSer::DefAttr&lt;__VA_ARGS__&gt;; }; }</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Annotate external struct member. </p>
+<p>Adds annotations to the member of any struct. This macro <em>must</em> be called in the global namespace. See <a class="el" href="tutorial.html#ConStruct6">Non-Intrusive struct annotation</a></p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">sname</td><td>The fully-qualified name of the surrounding struct (including namespaces) </td></tr>
+    <tr><td class="paramname">name</td><td>Name of the member </td></tr>
+    <tr><td class="paramname">...</td><td>A list of <a class="el" href="group__Attr.html">attributes</a> </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="aa698c0d67c4648448cff3db1230633fb"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define USER_MEM</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">type, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">name, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>...</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td>&#160;&#160;&#160;type name; <a class="el" href="uSer_8hh.html#aa9fd5f0392d3b7830ad9443d4b168885">USER_MEM_ANNOT</a>(name, __VA_ARGS__)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Define and annotate struct member. </p>
+<p>Defines a member with <em>type</em> <em>name</em> and annotates it via <a class="el" href="uSer_8hh.html#aa9fd5f0392d3b7830ad9443d4b168885">USER_MEM_ANNOT</a> in one step. See <a class="el" href="tutorial.html#ConStruct4">Defining and annotating a single member in one step</a> </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">type</td><td>The type for the member </td></tr>
+    <tr><td class="paramname">name</td><td>The name for the member </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="aa9fd5f0392d3b7830ad9443d4b168885"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define USER_MEM_ANNOT</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">name, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>...</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td>&#160;&#160;&#160;static ::uSer::DefAttr&lt;__VA_ARGS__&gt; uSer_MemAttributes (::uSer::Helper::VTag&lt;&amp;uSer_Self:: name &gt;);</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Define attributes for single struct member. </p>
+<p>Call this macro if you want to annotate a single struct member. See <a class="el" href="tutorial.html#ConStruct3">Annotating a single struct member</a> </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">name</td><td>Name of the parameter </td></tr>
+    <tr><td class="paramname">...</td><td>A list of <a class="el" href="group__Attr.html">attributes</a>. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a3c3db54164091093c62af605d97c113e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define USER_STRUCT</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">name, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>...</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td>&#160;&#160;&#160;using uSer_Self = name; using uSer_Attributes = ::uSer::DefAttr&lt;__VA_ARGS__&gt;;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Begin intrusive struct definition. </p>
+<p>Call this macro at the beginning of a struct definition. See <a class="el" href="tutorial.html#ConStruct1">Defining and annotating struct members separately</a> </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">name</td><td>The name of the struct </td></tr>
+    <tr><td class="paramname">...</td><td>A list of <a class="el" href="group__Attr.html">attributes</a>. If none, specify <a class="el" href="group__Attr.html#gaeab6739fe40911e5564792c498f0de01">uSer::AttrNone</a> to avoid compiler warnings </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<h2 class="groupheader">Enumeration Type Documentation</h2>
+<a class="anchor" id="a8c7fd658da9e8986d7c7895b1e41c2ab"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="uSer_8hh.html#a8c7fd658da9e8986d7c7895b1e41c2ab">uSer_ErrorCode</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Error code for serialization functions. </p>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a class="anchor" id="a8c7fd658da9e8986d7c7895b1e41c2aba6cdbcce712ac5d9be458f121d0b2c557"></a>uSer_EOK&#160;</td><td class="fielddoc">
+<p>No error was indicated (success) </p>
+</td></tr>
+<tr><td class="fieldname"><a class="anchor" id="a8c7fd658da9e8986d7c7895b1e41c2aba8a5cd0c58885536a14649c891618a51f"></a>uSer_EDYNRANGE&#160;</td><td class="fielddoc">
+<p>The size of a dynamic data structure exceeds the allowed maximum. </p>
+</td></tr>
+<tr><td class="fieldname"><a class="anchor" id="a8c7fd658da9e8986d7c7895b1e41c2aba3cebcf927096e1e66d523699e5584503"></a>uSer_EBUFSIZE&#160;</td><td class="fielddoc">
+<p>Raw buffer overflow. </p>
+</td></tr>
+<tr><td class="fieldname"><a class="anchor" id="a8c7fd658da9e8986d7c7895b1e41c2abadcb3f06ddb8821cd593f31234c23733b"></a>uSer_EHOOK&#160;</td><td class="fielddoc">
+<p>This error is never raised by <a class="el" href="namespaceuSer.html" title="µSer main API. ">uSer</a>, but can be used by hooks. </p>
+</td></tr>
+</table>
+
+</div>
+</div>
+</div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->

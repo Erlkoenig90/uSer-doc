@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['le',['LE',['../structuSer_1_1ByteOrder_1_1LE.html',1,'uSer::ByteOrder']]]
+  ['maxsize',['MaxSize',['../structuSer_1_1MaxSize.html',1,'uSer']]]
 ];

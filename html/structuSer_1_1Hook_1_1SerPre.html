@@ -131,7 +131,7 @@ struct uSer::Hook::SerPre&lt; Ref &gt;</h3>
 </ol>
 <p>The return type can be:</p><ol type="1">
 <li>void, in which case the function may indicate errors via exceptions, but not fail otherwise</li>
-<li><a class="el" href="namespaceuSer.html#a72cef23a5665ef71d6bf6f09abbbd12a">ErrorCode</a>, in which case the function may indicate errors by the returned value or via exceptions (if enabled). If the function indicates an error via a return value and exceptions are enabled, <a class="el" href="namespaceuSer.html" title="µSer main API. ">uSer</a> will throw an exception that forwards the error code.</li>
+<li><a class="el" href="uSer_8hh.html#a8c7fd658da9e8986d7c7895b1e41c2ab">uSer_ErrorCode</a>, in which case the function may indicate errors by the returned value or via exceptions (if enabled). If the function indicates an error via a return value and exceptions are enabled, <a class="el" href="namespaceuSer.html" title="µSer main API. ">uSer</a> will throw an exception that forwards the error code.</li>
 </ol>
 <p>A constant reference to the annotated object is passed as the first argument. For cases 2-4, a constant reference to the struct is passed as a second argument, if the attribute was applied to a struct member. </p>
 </div><hr/>The documentation for this struct was generated from the following file:<ul>
